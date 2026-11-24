@@ -1,0 +1,14 @@
+[project]
+name = "rl-billiard"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "gymnasium>=1.4.0",
+    "numpy>=2.5.5",
+    "pygame>=2.6.1",
+    "pymunk>=7.3.1",
+    "stable-baselines3>=2.9.2",
+    "tensorboard>=2.21.0",
+    "torch>=2.15.0",
+]

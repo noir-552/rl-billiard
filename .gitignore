@@ -1,0 +1,35 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+wheels/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Training logs & redundant checkpoints (keep best_model.zip & summary.json)
+logs/tb/
+logs/**/final_model.zip
+logs/**/evaluations.npz
+logs/**/best_model/
+*.tfevents*
+
+# Markdown notes/guides
+*.md
+

@@ -1,0 +1,40 @@
+{
+  "timestamp": "2026-11-25T03:05:05",
+  "stage": 1,
+  "timesteps": 30000,
+  "n_envs": 4,
+  "seed": 42,
+  "loaded_from": null,
+  "eval_episodes": 50,
+  "winner": "final_model",
+  "best_checkpoint_metrics": {
+    "model": "logs/stage1/best_model.zip",
+    "stage": 1,
+    "episodes": 50,
+    "pocket_rate": 100.0,
+    "clear_rate": 100.0,
+    "avg_shots_to_clear": 1.62,
+    "scratch_rate": 6.17,
+    "mean_reward": 19.15,
+    "pocketed": 50,
+    "total_targets": 50,
+    "cleared": 50,
+    "scratches": 5,
+    "total_shots": 81
+  },
+  "final_model_metrics": {
+    "model": "logs/stage1/final_model.zip",
+    "stage": 1,
+    "episodes": 50,
+    "pocket_rate": 100.0,
+    "clear_rate": 100.0,
+    "avg_shots_to_clear": 1.64,
+    "scratch_rate": 6.1,
+    "mean_reward": 19.16,
+    "pocketed": 50,
+    "total_targets": 50,
+    "cleared": 50,
+    "scratches": 5,
+    "total_shots": 82
+  }
+}
